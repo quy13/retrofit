@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:gravity="center"
+        android:id="@+id/list_item_pagination_text"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@+id/label"
+        android:textSize="20sp"
+        android:drawablePadding="5dp"
+        android:background="@drawable/back"
+        android:paddingStart="15dp"
+        android:paddingEnd="0dp"
+        android:textColor="@color/blue"
+        app:drawableStartCompat="@drawable/ic_logo_github_icon_143196" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/view2"
+        android:text="@+id/label"
+        android:layout_below="@id/list_item_pagination_text"
+        android:background="@color/light_blue"
+        android:gravity="center"
+        />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
